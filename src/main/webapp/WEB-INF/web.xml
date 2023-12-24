@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Generate</servlet-name>
+    <servlet-class>com.ivoyant.Generate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Generate</servlet-name>
+    <url-pattern>/generate</url-pattern>
+  </servlet-mapping>
 </web-app>
